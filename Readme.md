@@ -21,7 +21,8 @@ ___
 - Necessary for the operation of a computer program 
   - Library: tkinter, pyserial, pygame
 ___
-
+### WARING
+#### **In main.py on line 14, replace "COM3" with the port on which your device was identified in system**
 ```python
 ser = serial.Serial(
     port='COM3', # <-- you need replace that
@@ -32,5 +33,3 @@ ser = serial.Serial(
     bytesize=serial.EIGHTBITS
 )
 ```
-### WARING
-#### **In main.py on line 14, replace "COM3" with the port on which your device was identified in system**
