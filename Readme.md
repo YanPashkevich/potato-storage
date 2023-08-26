@@ -6,7 +6,7 @@ The device also displays the system status on the PC using the developed program
 The device allows you to control the heater, cooler and humidifier by switching the relay on and off<br> 
 The device also displays the system status on the PC using the developed program in Python language
 
-<u>Can be used in a small potato storage or modified for large areas</u>
+Can be used in a small potato storage or modified for large areas
 ___
 >Instead of creating a circuit with an Atmega328, you can use <u>Arduino</u>
 
@@ -14,15 +14,13 @@ ___
 
 **temp_hum.ino** - for circuit (for arduino and arduino.ide)
 ___
-###Required Libraries
+### Required Libraries
 - To download the program to the circuit:<br> 
   - Library: DHT.h (library for temperature and humidity sensor DHT11, DHT21, DHT22)<br>
-<br>
+
 - Necessary for the operation of a computer program 
   - Library: tkinter, pyserial, pygame
 ___
-
-<font color="red"> In main.py on line 14, replace "COM3" with the port on which your device was identified in system</font>
 
 ```python
 ser = serial.Serial(
@@ -34,3 +32,5 @@ ser = serial.Serial(
     bytesize=serial.EIGHTBITS
 )
 ```
+### WARING
+#### **In main.py on line 14, replace "COM3" with the port on which your device was identified in system**
