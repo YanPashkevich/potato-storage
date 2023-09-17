@@ -12,7 +12,7 @@ ___
 
 **main.py** - for PC
 
-**temp_hum.ino** - for circuit (for arduino and arduino.ide)
+**temp_hum.ino** - for circuit (for arduino and Arduino IDE)
 ___
 ### Required Libraries
 - To download the program to the circuit:<br> 
